@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brycesulin/Desktop/Github Projects/Operating Systems Class Projects/Fibonacci/Fibo.c
+stdio.h
+-
+sys/types.h
+-
+unistd.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+
